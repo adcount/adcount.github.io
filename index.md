@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# <font color="CC0000">AdCount: Automated analysis of lipid droplets in two-dimensional confocal microscope images</font>
 
-You can use the [editor on GitHub](https://github.com/adcount/adcount.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###Aditya Nair, John Thundyil, Lim Kah Leong<sup><a href="#fn1" id="ref1">1</a></sup>
 
-### Markdown
+<a href="http://imgur.com/26YTpph"><img src="http://i.imgur.com/26YTpph.png" title="source: imgur.com" style="width: 200px;"  align="Right"  /></a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+AdCount is a program within *Mathematica* Version 10.3 <sup><a href="#fn2" id="ref2">2</a></sup> for the automated analysis of Lipid Droplets in two dimensional confocal microscope images. Created for the biologist, it features an easy to use user interface and can give robust results without extensive domain knowledge in image processing.
 
-# Header 1
-## Header 2
-### Header 3
+It is currently in beta
 
-- Bulleted
-- List
+##Downloading AdCount
 
-1. Numbered
-2. List
+> LipoCount can be downloaded from the following Git repository: [AdCount-Git](https://gitlab.com/adityanair/LipoCount)
 
-**Bold** and _Italic_ and `Code` text
+> It may also be used here
 
-[Link](url) and ![Image](src)
-```
+<script type="text/javascript" src="http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js"></script>
+<script type="text/javascript">
+var cdf = new cdfplugin();
+cdf.embed('AdCount_HTML.cdf', 500, 500);
+</script>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##Using AdCount
 
-### Jekyll Themes
+>LipoCount takes in two dimensional fluorescence microscopy images of lipid droplets and estimates the nuclei count and the total area occupied by lipid droplets in each image to compute the average lipid droplet area per nuclei in an image.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adcount/adcount.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+To operate AdCount
 
-### Support or Contact
+- Select the `Initialize` command in the `Menu` option
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Select the image you wish to analyse following the drop down options within `Menu`
+
+- Perform your required analysis using the `Analyse Lipid Droplets` and `Analyse Nuclei` options
+
+- Display the results and a comparison of the original and segmented images using the `Display Result` option
+
+- Results can be exported into an Excel file format using the `Export Results` drop down menu
+
+## More on AdCount
+
+ 
+
