@@ -3,7 +3,7 @@
 
 ###Aditya Nair, John Thundyil, Lim Kah Leong<sup><a href="#fn1" id="ref1">1</a></sup>
 
-<a href="http://imgur.com/26YTpph"><img src="http://i.imgur.com/26YTpph.png" title="source: imgur.com" style="width: 200px;"  align="Right"  /></a>
+<a href="http://imgur.com/26YTpph"><img src="http://i.imgur.com/26YTpph.png" title="source: imgur.com" style="width: 100px;"  align="Right"  /></a>
 
 
 AdCount is a program within *Mathematica* Version 10.3 <sup><a href="#fn2" id="ref2">2</a></sup> for the automated analysis of Lipid Droplets in two dimensional confocal microscope images. Created for the biologist, it features an easy to use user interface and can give robust results without extensive domain knowledge in image processing.
