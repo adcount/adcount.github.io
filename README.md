@@ -1,4 +1,3 @@
-# adcount.github.io
 # <font color="CC0000">AdCount: Automated analysis of lipid droplets in two-dimensional confocal microscope images</font>
 
 
