@@ -1,13 +1,13 @@
 # <font color="CC0000">AdCount: Automated analysis of lipid droplets in two-dimensional confocal microscope images</font>
 
 
-###Aditya Nair, John Thundyil, Lim Kah Leong<sup><a href="#fn1" id="ref1">1</a></sup>
+### Aditya Nair, John Thundyil, Lim Kah Leong<sup><a href="#fn1" id="ref1">1</a></sup>
 
 AdCount is a program within *Mathematica* Version 10.3 <sup><a href="#fn2" id="ref2">2</a></sup> for the automated analysis of Lipid Droplets in two dimensional confocal microscope images. Created for the biologist, it features an easy to use user interface and can give robust results without extensive domain knowledge in image processing.
 
 It is currently in beta
 
-##Downloading AdCount
+## Downloading AdCount
 
 > LipoCount can be downloaded from the following Git repository: [AdCount-Git](https://gitlab.com/adityanair/LipoCount)
 
@@ -19,7 +19,7 @@ var cdf = new cdfplugin();
 cdf.embed('AdCount_HTML.cdf', 500, 500);
 </script>
 
-##Using AdCount
+## Using AdCount
 
 >LipoCount takes in two dimensional fluorescence microscopy images of lipid droplets and estimates the nuclei count and the total area occupied by lipid droplets in each image to compute the average lipid droplet area per nuclei in an image.
 
@@ -37,8 +37,8 @@ To operate AdCount
 
 ## More on AdCount
 
-Adcount is described in "An automated method for the analysis of lipid droplets in confocal microscope images" 
-
+Further details about AdCount can be obtained from the AdCount User Manual available at the link: https://goo.gl/12AwAb
+AdCount was presented at the 2016 CUSAT-NUS Joint Conference on Biotechnology and Neuroscience held in Cochin, India.
  
 --- 
  
