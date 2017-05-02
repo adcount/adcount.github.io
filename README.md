@@ -11,14 +11,6 @@ It is currently in beta
 
 > LipoCount can be downloaded from the following Git repository: [AdCount-Git](https://gitlab.com/adityanair/LipoCount)
 
-> It may also be used here
-
-<script type="text/javascript" src="http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js"></script>
-<script type="text/javascript">
-var cdf = new cdfplugin();
-cdf.embed('AdCount_HTML.cdf', 500, 500);
-</script>
-
 ## Using AdCount
 
 >LipoCount takes in two dimensional fluorescence microscopy images of lipid droplets and estimates the nuclei count and the total area occupied by lipid droplets in each image to compute the average lipid droplet area per nuclei in an image.
